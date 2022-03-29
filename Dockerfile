@@ -4,7 +4,6 @@ FROM node:16
 # Create directory that runs the app on docker
 WORKDIR /app
 
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 COPY package*.json ./
 COPY prisma ./prisma/
 COPY .env ./
