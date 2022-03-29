@@ -1,5 +1,8 @@
 ### Dockerized Prisma API (PostgreSQL)
 
+Using this tutorial as a jumping off point for learning docker compose and deploying docker to heroku
+- https://www.section.io/engineering-education/dockerized-prisma-postgres-api/
+
 dockerized Prisma REST API with PostgreSQL
 
 Use this docker-compose as a simple way to have a containerized postgres instance (so you don't need to configure anything):

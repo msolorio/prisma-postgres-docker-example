@@ -14,6 +14,7 @@ RUN npx prisma generate
 
 COPY . .
 
-EXPOSE 3000
+# Not supported by heroku
+# EXPOSE 3000
 
 CMD ["npm", "start"]
